@@ -12,7 +12,7 @@ import paymentRouter from './routes/paymentRoute.js';
 const app=express();
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://aiinterviewprep-client.onrender.com",
     credentials:true
 }))
 
